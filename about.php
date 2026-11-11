@@ -1,0 +1,10 @@
+<?php
+$pageTitle = 'Our story';
+$activePage = 'about';
+require __DIR__ . '/includes/header.php';
+?>
+<section class="page-hero about-hero"><div class="container"><p class="eyebrow light-eyebrow"><span class="eyebrow-line"></span> A DIFFERENT KIND OF DEALERSHIP</p><h1>Cars are personal.<br>Buying one should <em>be too.</em></h1><p>We started Northline with a simple idea: bring a little more care, clarity, and humanity to buying and selling cars.</p></div></section>
+<section class="container story-section"><div class="story-image"></div><div class="story-copy"><p class="eyebrow">A NOTE FROM OUR FOUNDERS</p><h2>Good cars.<br>Good <em>people.</em></h2><p>We love the feeling of finding the right car. What we didn't love was how complicated, rushed, and impersonal the experience could be.</p><p>So we built Northline around what we wished we'd found: a small, thoughtful team that knows every car on the floor, answers the question you actually asked, and gives you room to decide.</p><p>Each car is hand-selected and inspected. Each description is honest. And from the first hello to the drive home, you'll deal with people who remember your name.</p><p class="signature">Here's to finding your next favorite thing.<br><strong>The Northline team</strong></p></div></section>
+<section class="values-band"><div class="container values-grid"><div><span>01</span><h3>Care, in the details.</h3><p>Every car is chosen, checked, and presented with the kind of attention we'd want for ourselves.</p></div><div><span>02</span><h3>Clarity feels good.</h3><p>Honest information and straight answers. No fine print surprises, no pressure to say yes.</p></div><div><span>03</span><h3>People first. Always.</h3><p>Real conversations with a small team that genuinely cares about getting it right for you.</p></div></div></section>
+<section class="about-cta container"><p class="eyebrow">LET'S FIND YOUR NEXT FAVORITE THING</p><h2>Ready when <em>you are.</em></h2><a href="<?= e(url('buy-cars.php')) ?>" class="button button-dark">Explore the collection <span>↗</span></a></section>
+<?php require __DIR__ . '/includes/footer.php'; ?>
